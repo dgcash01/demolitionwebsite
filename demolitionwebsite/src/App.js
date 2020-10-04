@@ -1,14 +1,11 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
 import './App.css';
-
 import Home from './components/pages/Home';
 import Services from './components/pages/Services';
-import SignUp from './components/pages/SignUp';
 import Contact from './components/pages/Contact';
+import Images from './components/pages/Images';
 
 function App() {
   return (
@@ -18,8 +15,8 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />
-          <Route path='/sign-up' component={SignUp} />
           <Route path='/contact' component={Contact} />
+          <Route path='/images' component={Images} />
         </Switch>
       </Router>
     </>

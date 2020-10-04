@@ -1,3 +1,24 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: #4f5b66;
+}
+ 
+input {
+  position: relative;
+  margin-left: 25px;
+  width: 350px;
+  height: 40px;
+  border: 0;
+}
+ 
+/* .submitButton {
+  margin-left: 20px;
+  border: 0;
+  margin-bottom: 17px;
+} */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,13 +28,34 @@
   
   .home,
   .services,
-  .gallery,
-  .contact {
+  .contact,
+  .images {
     display: flex;
     height: 90vh;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
+  }
+  .jobsContainer {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  .jobsCard {
+    display: flex;
+    flex-flow: column;
+    opacity: .75;
+    background: black;
+    height: 68%;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
   }
   
   .services {
@@ -21,12 +63,12 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+    color: white;
+    font-size: 85px;
   }
   
-  .gallery {
-    background-image: url('/images/img-12.jpg');
+  .images {
+    background-color: black;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
