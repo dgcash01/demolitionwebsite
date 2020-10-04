@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className="hero-container">
-      <h1>Your Demolition Awaits!</h1>
+      <h1>C and L Demolition</h1>
       <p>Contact us today.</p>
       <div className="hero-btns">
         <Button

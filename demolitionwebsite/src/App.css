@@ -13,11 +13,11 @@ input {
   border: 0;
 }
  
-/* .submitButton {
+.submitButton {
   margin-left: 20px;
   border: 0;
   margin-bottom: 17px;
-} */
+}
 
 * {
     box-sizing: border-box;

@@ -37,13 +37,14 @@ background-color: rgba(0, 0, 0, 0.5);
 
 .popupImage {
 position: absolute;
-left: 25%;
-right: 25%;
-top: 25%;
-bottom: 25%;
+left: 10%;
+right: 10%;
+top: 10%;
+bottom: 10%;
 margin: auto;
 }
 
 .imageClosingButton {
 position: relative;
+font-size: 20px;
 }

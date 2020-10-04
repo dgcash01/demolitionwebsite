@@ -9,6 +9,7 @@ class App extends Component {
                     <button className="imageClosingButton">
                         X
                     </button>
+                    {/* eslint-disable-next-line */}
                     <img src = {this.props.popImageUrl} />
                 </div>
 
